@@ -1,0 +1,251 @@
+body{
+    width: 50%;
+    margin: 0 auto;
+
+    /*background-image: url(../Images/Gemini_Generated_Image_933hr0933hr0933h.jfif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;*/
+
+    background-color: black;
+
+}
+
+.heading1{
+    text-align: center;
+    background-color: navy;
+    color: white;
+    width: auto;
+    margin: auto;
+    border-radius: 5cap;
+
+    font-family: "Roboto", sans-serif;
+
+}
+.heading2{
+    text-align: center;
+    background-color: darkslateblue;
+    color: white;
+    width: auto;
+    margin: auto;
+    border-radius: 5cap;
+
+    font-family: "Roboto", sans-serif;
+
+}
+
+.header_div{
+    outline: transparent;
+    outline-offset: 5px;
+
+}
+
+
+
+
+
+
+/* Div's AND  Menu Bar and Buttons */ 
+.over_div{
+    display: flex;
+    width: 100%;
+    background-color: black;
+    padding: 5px;
+    border-radius: 25px;
+}
+    .personal_statement_div{
+        outline: transparent;
+        width: 80%;   
+    }
+
+        .text2{
+            border-radius: 25px;
+            padding: 5px;
+        
+            color: white;
+            text-align: center;
+            padding: 3px;
+            font-family: "Roboto", sans-serif;
+        }
+        /* Higlights */
+        #Highlight{
+            color: gold;
+        }
+        #Highlight2{
+            color: tomato;
+        }
+        #Highlight3{
+            color: cyan;
+        }
+        #Highlight4{
+            color: lime;
+        }
+        #Highlight5{
+            color: yellow;
+        }
+        #Highlight6{
+            color: lime;
+        }
+
+
+    .side_bar{ 
+        outline: transparent;
+        width: 30%;
+    }
+.interior_side_bar{
+    height: auto;
+    
+}
+.menu_bar_div{
+    text-align: right;
+    background-color: black;
+    margin: 5px;
+    padding: 0px;
+    width: 100%;
+    box-sizing: border-box;
+
+}
+
+.button_style{
+    margin: 5px;
+    width: 90%;
+    height: 3vh;
+    border: 2px solid;
+    border-radius: 5px;
+    border-style:outset ;
+    
+    background-color:darkblue;
+    color:white;
+
+    /* Green - #28a745
+        Red -  #dc3545
+        Secondary Gray - #6c757d 
+        Dark Blue - #007BFF
+        Dark Green - #28a745
+    */
+
+    font-family:sans-serif;
+    font-weight: bold;
+}
+
+.button_style:hover{
+    background-color: #007BFF;
+    color: white;
+    cursor: pointer;
+}
+    
+
+/* Top 3 projects */
+.home_projects_container{
+    display: flex;
+    width: 100%;
+    
+}
+img{
+    display: block; 
+    margin: 0;     
+    padding: 0;    
+    border: none;  
+}
+hr{
+    border: none;
+    height: 5px; 
+    background-color: #ccc; 
+    margin: 20px 0;
+}
+.project_window{
+    margin: 5px;
+}
+    #project_1{
+        
+        width: auto;
+        height: auto;
+        overflow: hidden;
+        box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+        border-radius: 100px;
+        
+    }
+        #project_1 img{
+            max-width: 100%;
+            max-height: 100%;
+            width: auto;
+            height: auto;
+
+        }
+    #project_2{
+        outline: transparent;
+        width: auto;
+        height: auto;
+        overflow: hidden;
+        box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+        border-radius: 100px;
+    }
+        #project_2 img{
+            max-width: 100%;
+            max-height: 100%;
+            width: auto;
+            height: auto;
+
+        }
+    #project_3{
+        outline: transparent;
+        width: auto;
+        height: auto;
+        overflow: hidden;
+        box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+        border-radius: 100px;
+    }
+        #project_3 img{
+            max-width: 100%;
+            max-height: 100%;
+            width: auto;
+            height: auto;
+
+        }
+.description_container{
+    display: flex;
+    width: 100%;
+}
+.project_description{
+    margin: 5px;
+}
+.desc_title{
+    background-color: darkblue;
+    padding: 5px;
+    margin: 0 auto;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+
+    font-family:sans-serif;
+    font-weight: bold;
+}
+.desc_title:hover{
+    background-color:burlywood;
+    color: black;
+    cursor: pointer;
+}
+    #desc1{
+        outline: transparent;
+        width: 33.33%;
+        height: 50px;
+    }
+        
+    #desc2{
+        outline: transparent;
+        width: 33.33%;
+    }
+    #desc3{
+        outline: transparent;
+        width: 33.33%;
+    }
+
+    /* PROJECT PAGE */
+.project_page_projects{
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 1);
+    margin: 5px;
+}
+.projects_page_main{
+    display: flex;
+    width: 100%;
+}
